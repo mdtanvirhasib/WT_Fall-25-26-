@@ -5,8 +5,11 @@
     </head>
 
     <body>
-        <table>
-            <h1>Student Registration</h1>
-        </table>
+        <center>
+           <table>
+                <h1>Student Registration</h1>
+           </table> 
+        </center>
+        
     </body>
 </html>
