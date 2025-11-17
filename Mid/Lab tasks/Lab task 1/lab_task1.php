@@ -5,6 +5,10 @@
             AIUB Course Registration
         </title>
         <style>
+            .form {
+            border: 3px solid #ff4d4d;
+            border-radius: 10px;
+            }
             .setcolour{
                 border-bottom: 2px solid red;
                 color: red;
@@ -13,7 +17,8 @@
     </head>
     <body>
         <center>
-            <table>
+            
+            <table class="form">
                 <tr><td><h2 class="setcolour">Student Registration Information</h2></td></tr>
                 <tr><td>First Name:</td></tr><br>
                 <tr><td><input type="text"></td><br></tr>
