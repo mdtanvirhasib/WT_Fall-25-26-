@@ -36,13 +36,13 @@
            <table class="form">
                 <tr><td><h1>Student Registration</h1></td></tr>
                 <tr><td>Full Name:</td></tr>
-                <tr><td><input type="text"></td></tr>
+                <tr><td><input type="text" id="fullname"></td></tr>
                 <tr><td>Email:</td></tr>
-                <tr><td><input type="email" placeholder="ABC@gmail.com"></td></tr>
+                <tr><td><input type="email" id="email" placeholder="ABC@gmail.com"></td></tr>
                 <tr><td>Password:</td></tr>
-                <tr><td><input type="password"></td></tr>
+                <tr><td><input type="password" id="psaaword"></td></tr>
                 <tr><td>Confirm Password:</td></tr>
-                <tr><td><input type="password"></td></tr>
+                <tr><td><input type="password" id="confirmpassword"></td></tr>
 
                 <tr><td><button>Register</button></td></tr>
 
@@ -58,6 +58,16 @@
 
            </table> 
         </center>
+
+        <script>
+            function Register()
+            {
+                var name = document.getElementById("fullname").value.trim();
+                var email = document.getElementById("email").value.trim();
+                var password = document.getElementById("password").value.trim();
+                var confirmPassword = document.getElementById("confirmpassword").value.trim();
+            }
+        </script>
         
     </body>
 </html>
