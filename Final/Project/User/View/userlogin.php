@@ -1,39 +1,25 @@
 <!DOCTYPE html>
 <html>
     <head>
-
+        <link rel="stylesheet" href="../Css/userlogin.css">
     </head>
 
     <body>
+        <img src="../Image/login.png" class="setimg" alt="">
         <form action="">
             <h1>User Login</h1>
-            <table>
-                <tr>
-                    <td>
+     
                         <label for="">Email ID:</label>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <input type="text">
-                    </td>
-                </tr>
+     
+                        <input type="text" placeholder="Email ID" id="in">
 
-                <tr>
-                    <td>
                         <label for="">Password:</label>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <input type="password">
-                    </td>
-                </tr>
-            </table>
 
-            <button>Forgot Password?</button>
+                        <input type="password" placeholder="password" id="in">
 
-            <input type="submit" value="Login">
+                        <a href="" id="fp">Forgot Password?</a>
+            <input type="submit" value="Login" id="sub">
+            <a href="" id="reg">Create Account</a>
 
         </form>
     </body>
