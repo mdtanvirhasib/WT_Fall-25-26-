@@ -26,3 +26,16 @@ form{
     border: none;
     border-radius: 5px;
 }
+
+#li{
+    display: block;
+    text-align: center;
+}
+label{
+    margin: 5px;
+}
+
+h1{
+    text-align: center;
+    padding-top: 25px;
+}
