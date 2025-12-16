@@ -19,7 +19,7 @@
 
                         <a href="" id="fp">Forgot Password?</a>
             <input type="submit" value="Login" id="sub">
-            <a href="" id="reg">Create Account</a>
+            <a href="../View/userreg.php" id="reg">Create Account</a>
 
         </form>
     </body>
